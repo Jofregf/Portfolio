@@ -39,7 +39,7 @@ export const skills = [
     },
     {
         name: 'Bootstrap',
-        image: 'Bootstrap.png'
+        image: 'bootstrap.png'
     },
     {
         name: 'Visual Studio Code',
