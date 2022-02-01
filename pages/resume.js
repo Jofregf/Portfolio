@@ -5,6 +5,9 @@ import { pdfjs } from "react-pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
+const resumeLink =
+  "https://raw.githubusercontent.com/usuario/nombreDelRepo/master/src/Assets/tucv.pdf";
+
 export default function resume() {
   const [, setNumPages] = useState(null);
   const [pageNumber,] = useState(1);
@@ -22,7 +25,7 @@ export default function resume() {
     <div>
       <Layout>
         <div className="pdf-container">
-          <Document className='prueba'file="cv.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+          <Document className='prueba'file={resumeLink} onLoadSuccess={onDocumentLoadSuccess}>
             <Page className='prueba1' pageNumber={pageNumber} scale={width > 786 ? 1.5 : 0.6} />
           </Document>
         </div>
