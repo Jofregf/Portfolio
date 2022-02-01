@@ -37,10 +37,10 @@ export const skills = [
         name: 'CSS3',
         image: 'css.png'
     },
-    {
-        name: 'Bootstrap',
-        image: 'bootstrap.png'
-    },
+    // {
+    //     name: 'Bootstrap',
+    //     image: 'bootstrap.png'
+    // },
     {
         name: 'Visual Studio Code',
         image: 'vscode.png'
