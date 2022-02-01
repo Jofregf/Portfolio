@@ -6,7 +6,7 @@ import { pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/usuario/nombreDelRepo/master/src/Assets/tucv.pdf";
+  "https://raw.githubusercontent.com/Jofregf/Porfolio/master/src/Assets/tucv.pdf";
 
 export default function resume() {
   const [, setNumPages] = useState(null);
