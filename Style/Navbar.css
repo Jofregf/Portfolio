@@ -1,0 +1,19 @@
+.navbar-text {
+  text-decoration: none;
+  color: #9e0059;
+  font-size: 1.5em;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.container-nav {
+  background: #ade8f4;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.container-option {
+  margin-top: 10px;
+}

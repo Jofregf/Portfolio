@@ -1,0 +1,14 @@
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 20px;
+    background: #0096C7;
+    border-color: #9e0059;
+    border-style: double;
+    border-radius: 10px;
+} 
+

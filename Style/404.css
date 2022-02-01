@@ -1,0 +1,14 @@
+.container-404{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #FBF5F3;
+}
+
+.msg-404{
+    text-decoration: none;
+    color: #FBF5F3;
+    font-size: 20px;
+}

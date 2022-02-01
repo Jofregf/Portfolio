@@ -1,0 +1,35 @@
+.footer-container {
+  background: #ade8f4;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 110px;
+}
+
+.footer-text {
+  color: #9e0059;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.footer-title {
+  font-size: 1.5em;
+  gap: 0.1em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-date {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.img-footer {
+  width: 30px;
+}

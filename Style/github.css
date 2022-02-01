@@ -1,0 +1,30 @@
+.container-git {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.user-git {
+    font-size: 30px;
+  color: #ade8f4;
+  font-family: sans-serif;
+}
+
+.image-git {
+    background: #00B4D8;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: #9e0059;
+}
+
+.go-git {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ade8f4;
+    font-family: sans-serif;
+}
